@@ -1,0 +1,26 @@
+body{
+	min-height: 150px;
+	width: auto;
+	background-color: green;
+}
+
+.contianer{
+	width: 450px;
+	background-color: blue;
+	text-align: center;
+	display: inline-block;
+}
+
+.sect{
+	font-family: arial;
+	font-size: 50px;
+	text-align: center;
+	font-style: italic;
+}
+
+.art{
+	font-style: oblique;
+	font-family: arial;
+	text-align: center;
+	font-size: 40px;
+}
