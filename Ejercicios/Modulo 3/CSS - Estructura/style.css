@@ -5,6 +5,13 @@
 	background: none repeat scroll 0% 0% #FF0080;
 }
 
+.pie2 {
+	display: block;
+	min-width: 10%;
+	text-align: center;
+	background: none repeat scroll 0% 0% #008040FF;
+}
+
 body, html {
 	height: 100%;
 	width: 100%;
@@ -21,13 +28,16 @@ p, a{
 	height: 80%;
 	display: flex;
 	flex-flow: row nowrap;
+	overflow: auto;
 }
 
 .inner {
 	flex: 3 1 80%;
 	order: 2;
 	background: none repeat scroll 0% 0% #00FF40;
-	padding: 12px;
+	padding: 20px;
+	overflow: auto;
+	text-align: justify;
 }
 
 .navigation {
@@ -41,9 +51,11 @@ p, a{
 }
 
 .lado {
-	flex: 1 6 20%;
+	flex: 1 6 40%;
 	order: 3;
 	background: none repeat scroll 0% 0% #CCF;
+	overflow: auto;
+	text-align: center;
 }
 
 .pie {
@@ -75,18 +87,12 @@ a {
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: #CCC;
-	background-color: #EAEAEA;
+	background-color: #13ECB0;
 }
 a:hover {
 	color: #FFF;
-	background-color: #666;
+	background-color: #FF8000;
 	border-right-width: 5px;
 	border-right-style: solid;
-	border-right-color: rgb(155,155,255);
-}
-
-.evt {
-	float: right;
-	margin-right: 50%;
-	margin-top: -15%;
+	border-right-color: rgb(255,0,0);
 }
